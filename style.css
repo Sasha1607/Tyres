@@ -1,0 +1,522 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.head {
+    background-color: #efefef;
+    height: 50px;
+    
+}
+
+.subHead {
+    display: flex;
+}
+
+.icon {
+    width: 50px;
+    height: 40px;
+    margin-top: 5px;
+}
+
+.headText {
+    font-family: 'Roboto', sans-serif;
+    width: 140px;
+    display: inline-block;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.headText:hover {
+    color: rgb(253, 85, 3);
+    transition: 0.5s;
+}
+.gar {
+    width: 250px;
+}
+
+.label {
+    background-color: #1f1e1e;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    padding-top: 25px;
+    width: 700px;
+}
+
+#mainBasket {
+    width: 130px;
+    height: 115px;
+    background-color: #6b69695c;
+    
+}
+
+#basket1 {
+    margin-top: 15px;
+    margin-left: 40px;
+    width: 50px;
+    height: 50px;
+}
+#basket2 {
+    display: none;
+    margin-top: 15px;
+    margin-left: 40px;
+    width: 50px;
+    height: 50px;
+}
+
+#card {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 25px;
+    padding-top: 5px;
+    padding-left: 15px;
+    font-weight: bold;
+}
+.navigation {
+    background-color: rgb(253, 85, 3);
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    z-index: 1;
+    top: 0;
+}
+
+
+.navigationBurger {
+    display: flex;
+    justify-content: space-around;
+  
+}
+
+
+.links a {
+    font-family: 'Roboto', sans-serif;
+    line-height: 90px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 20px;
+    transition: 0.5s;
+}
+
+.links a:hover {
+    color: black;
+    transition: 0.5s;
+}
+
+#categoriesText {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 23px;
+    display: inline-block;
+    line-height: 90px;
+}
+
+#burgerMenu {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 8px;
+    margin-left: 25px;
+}
+
+#burgerMenuWhite {
+    display: none;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 17px;
+    margin-left: 25px;
+}
+#inputSearch {
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    margin-top: 25px;
+}
+
+#searchIcon {
+    position: relative;
+    top: 17px;
+    left: 5px;
+    display: inline-block;
+    width: 40px;
+    height: 41.2px;
+    border-bottom: 1px solid #a9a9a9;
+    border-top: 1px solid #a9a9a9;
+    border-left: 1px solid #a9a9a9;
+    margin-left: 0px;
+}
+
+#corusel {
+    background-image: url(image/image/slide-1-2050x740.jpg);
+    display: flex;
+    justify-content: space-between;
+    background-size: auto;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    background-color: dimgray;
+}
+
+#text1 {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-top: 150px;
+    color: white;
+}
+.carousel2 {
+    display: none;
+}
+#text2 {
+    display: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-top: 150px;
+    color: white;
+}
+
+#text3 {
+    display: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-top: 150px;
+    color: white;
+}
+
+.nextPrev {
+    margin-top: 100px;
+    width: 100px;
+    height: 200px;
+}
+
+
+/*
+.textCourusel {
+    
+}
+*/
+
+span {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(253, 85, 3);
+    font-size: 50px;
+}
+
+.containerSeasonBrands {
+    background: linear-gradient(to bottom, #626362, #ffffff);
+}
+
+.season {
+    display: flex;
+    justify-content: center;
+}
+
+#winter {
+    position: relative;
+    left: 9px;
+    bottom: 125px;
+    width: 440px;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.imgWinter {
+    position: relative;
+    display: inline-block;
+    width: 440px;
+    height: 250px;
+    background: linear-gradient(to right, #afaea900, #f2f2f2, #dbdbdbb8, #eaeaea00);
+}
+
+#summer {
+    position: relative;
+    bottom: 125px;
+    width: 440px;
+    height: 250px;
+}
+
+#custom {
+    position: relative;
+    right: 10px;
+    bottom: 125px;
+    width: 440px;
+    height: 250px;
+}
+
+.textInWinter {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.size {
+    font-size: 40px;
+}
+
+.textInWinterTires {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.loremInWinter {
+    position: absolute;
+    top: 100px;
+    font-size: 15px;
+    margin-left: 20px;
+    width: 200px;
+}
+
+#seeAllBtn1 {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 170px;
+    margin: 10px;
+    padding: 12px;
+    width: 175px;
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+    color: white;
+    line-height: 30px;
+    height: 30px;
+    background-color: rgb(253, 85, 3);
+}
+
+#seeAllBtn2 {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 170px;
+    margin: 10px;
+    padding: 12px;
+    width: 175px;
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+    color: white;
+    line-height: 30px;
+    height: 30px;
+    background-color: rgb(253, 85, 3);
+}
+
+#seeAllBtn3 {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 170px;
+    margin: 10px;
+    padding: 12px;
+    width: 175px;
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+    color: white;
+    line-height: 30px;
+    height: 30px;
+    background-color: rgb(253, 85, 3);
+}
+
+.blockToSeeAll {
+    position: absolute;
+    top: 180px;
+    left: 185px;
+    width: 35px;
+    height: 30px;
+    padding: 12px;
+    background-color: #333;
+    align-content: center;
+}
+
+.iconPrev {
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+#iconPrevWhite1 {
+    display: none;
+}
+
+#iconPrevWhite2 {
+    display: none;
+}
+
+#iconPrevWhite3 {
+    display: none;
+}
+
+#winterTyres {
+    z-index: 1;
+    width: 150px;
+    height: 100px;
+}
+
+.brands {
+    position: relative;
+    bottom: 60px;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.featureProduct {
+    font-family: 'Roboto', sans-serif;
+    width: 85%;
+    background-color: white;
+    height: 20px;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 15px;
+}
+
+.catalog {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    width: 0%;
+    overflow: hidden;
+}
+
+.itemBorder {
+    background-color: white;
+    height: auto;
+}
+
+.itemBorder2 {
+    display: flex;
+    margin-top: 20px;
+    background-color: white;
+    height: auto;
+}
+.textInCatalog {
+    padding: 15px;
+    width: 240px;
+    background-color: #f7f7f7;
+}
+
+.basketInKatalog {
+    width: 20px;
+    height: 20px;
+}
+
+.details {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333;
+    background: #fff;
+    border: 1px solid #dfdede;
+    padding: 14px 12px 15px;
+    margin-right: 70px;
+    /*width: 80px;
+    height: 50px;
+    border: 1px solid #dfdede;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;*/
+}
+
+.blockForBasket {
+    margin-left: 30px;
+    width: 55px;
+    height: 50px;
+    background-color: rgb(253, 85, 3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.price {
+    margin-top: 10px;
+    color: #333;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.star {
+    width: 100px;
+    height: 20px;
+}
+
+.ourServices {
+    margin-top: 40px;
+    background-image: url(image/image/parallax-1-2050x1450.jpg);
+    height: 700px;
+}
+
+.textInServices {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-left: 70px;
+}
+
+.positionInServices {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+
+.position {
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    float: left;
+    padding: 10px;
+    margin-top: 5px;
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+    background-color: rgb(253, 85, 3);
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.position:hover {
+    transition: 0.5s;
+    background-color: #333;
+}
+.span {
+    margin-left: 25px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.textLoremServices {
+    color: white;
+    width: 55%;
+    margin-top: 10px;
+}
+
+#map {
+    width: 100%;
+    height: 460px;
+    border: 0px;
+}

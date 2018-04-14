@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular-route.min.js"></script>
+    <script src="main.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/home.js"></script>
+    <script src="js/about.js"></script>
+    <script src="js/contact.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="jquery.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="dropdown.css">
+    <link rel="stylesheet" href="details.css">
+    <link rel="stylesheet" href="layoutHome.css"> </head>
+
+<body> <a href="#" class="scrollup">Наверх</a>
+    <header>
+        <div class="head">
+            <div class="subHead">
+                <div class="garante"> <img src="icon/like.png" alt="" class="icon">
+                    <p class="headText gar">SATISFACTION 100% GUARANTEED</p>
+                </div>
+                <div class="shipping"> <img src="icon/icon1.png" alt="" class="icon">
+                    <p class="headText">FREE SHIPPING ON ORDERS OVER $99</p>
+                </div>
+                <div class="back"> <img src="icon/back.png" alt="" class="icon">
+                    <p class="headText">7 DAY EASY RETURN</p>
+                </div>
+            </div>
+        </div>
+        <div class="label">
+            <div class="logo"><img src="image/image/logo.png" alt=""> </div>
+            <div id="mainBasket">
+                <a href="#"><img src="icon/basket.png" alt="" id="basket1"></a>
+                <a href="#"><img src="icon/basketWhite.png" alt="" id="basket2"></a>
+                <p id="card">CART: 0</p>
+            </div>
+        </div>
+        <div class="navigation">
+            <div class="navigationBurger">
+                <div class="dropdown">
+                    <button class="dropbtn">CATEGORY<a href="#"><img src="icon/burgerMenu.png" alt="" id="burgerMenu"></a></button>
+                    <div class="dropdown-content"> <a href="#">WINTER TYRES</a> <a href="#">SUMMER TYRES</a> <a href="#">CUSTOM WHEELS</a> </div>
+                </div>
+                <!--
+                <p id="categoriesText">CATEGORIES
+                    <a href="#"><img src="icon/burgerMenu.png" alt="" id="burgerMenu"></a>
+                </p>  
+            </div>
+             <div class="category">
+                <ul>
+                    <li>Summer Tyres</li>
+                    <li>Winter Tyres</li>
+                    <li>Custom Wheels</li>
+                </ul>
+            </div>
+-->
+
+                <div class="links"><a href="#!/home">HOME</a> <a href="#!/about">About Us</a> <a href="#!/contact">Contact</a> </div>
+                <div class="input"> <img src="icon/search.png" alt="" id="searchIcon">
+                    <input type="text" id="inputSearch"> </div>
+
+            </div>
+            </div>
+    </header>
+    <main>
+        <ng-view></ng-view>
+    </main>
+</body>
+
+</html>

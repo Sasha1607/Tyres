@@ -1,0 +1,263 @@
+@media all and (max-width: 890px) {
+    .navigation {
+        width: 100%;
+    }
+    .season {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .imgWinter {
+        width: 640px;
+        height: 300px;
+    }
+    #winter {
+        width: 640px;
+        left: 0px;
+    }
+    #summer {
+        width: 640px;
+        bottom: 0px;
+        top: -75px;
+        left: 0px;
+    }
+    #custom {
+        width: 640px;
+        bottom: 0px;
+        top: -25px;
+        left: 0px;
+    }
+    .brands {
+        position: relative;
+        bottom: 0px;
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+        top: 50px;
+    }
+    .imgBrand {
+        width: 120px;
+    }
+    .featureProduct {
+        margin-top: 70px;
+        width: 80%;
+        font-size: 20px;
+        margin-left: 70px;
+    }
+    .catalog {
+        width: 95%;
+        flex-direction: column;
+    }
+    #corusel {
+        height: 400px;
+    }
+    .columnCatalog {
+        display: flex;
+        justify-content: space-around;
+    }
+    #inputSearch {
+        
+        margin-top: 10px;
+    }
+    .position {
+        width: 70px;
+        line-height: 70px;
+        height: 70px;
+        margin-right: 10px;
+    }
+    .span {
+        font-size: 16px;
+    }
+    .textLoremServices {
+        width: 78%;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .ourServices {
+        height: 600px
+    }
+}
+
+@media all and (max-width: 768px) {
+    #text1 {
+        font-size: 20px;
+        font-weight: bolder;
+        margin-top: 120px;
+    }
+    #text2 {
+        font-size: 20px;
+        font-weight: bolder;
+        margin-top: 135px;
+    }
+    #text3 {
+        font-size: 20px;
+        font-weight: bolder;
+        margin-top: 120px;
+    }
+    .brands {
+        display: none;
+    }
+    .carousel2 {
+        display: block;
+        position: relative;
+        width: 85%;
+        padding: 5px 0px;
+        border: 1px solid #CCC;
+        border-radius: 15px;
+        background: #eee;
+        top: 50px;
+    }
+    .carousel2 img {
+        width: 130px;
+        height: 130px;
+        /* по умолчанию inline, в ряде браузеров это даст лишнее пространство вокруг элементов */
+        display: block;
+    }
+    .arrow {
+        position: absolute;
+        top: 60px;
+        padding: 0;
+        background: #ddd;
+        border-radius: 15px;
+        border: 1px solid gray;
+        font-size: 24px;
+        line-height: 24px;
+        color: #444;
+        display: block;
+    }
+    .arrow:focus {
+        outline: none;
+    }
+    .arrow:hover {
+        background: #ccc;
+        cursor: pointer;
+    }
+    .prev2 {
+        left: 7px;
+    }
+    .next2 {
+        right: 7px;
+    }
+    .gallery {
+        width: 390px;
+        overflow: hidden;
+    }
+    .gallery ul {
+        height: 130px;
+        width: 9999px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        transition: margin-left 250ms;
+        /* remove white-space between inline-block'ed li */
+        /* http://davidwalsh.name/remove-whitespace-inline-block */
+        font-size: 0;
+    }
+    .gallery li {
+        display: inline-block;
+    }
+    .position {
+        width: 70px;
+        line-height: 70px;
+        height: 70px;
+        margin-right: 10px;
+    }
+    .span {
+        margin-left: 5px;
+        font-size: 14px;
+    }
+    .textLoremServices {
+        width: 78%;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .ourServices {
+        height: 600px
+    }
+    .featureProduct {
+        margin-top: 70px;
+        width: 80%;
+        font-size: 20px;
+        margin-left: 50px;
+    }
+}
+
+@media all and (max-width: 710px) {
+    .label {
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .logo {
+        width: auto;
+        padding-bottom: 10px;
+    }
+    .dropdown {}
+    .ourServices {
+        height: auto;
+    }
+    .imgWinter {
+        width: 500px;
+    }
+    #winter {
+        left: 0px;
+    }
+    #summer {
+        width: 540px;
+        bottom: 0px;
+        top: -75px;
+        left: 20px;
+    }
+    #custom {
+        width: 540px;
+        bottom: 0px;
+        top: -75px;
+        left: 20px;
+    }
+    #seeAllBtn2 {
+        left: 0;
+    }
+    #seeAllBtn3 {
+        left: 0;
+    }
+    .positionInServices {
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .ourServiceLoyaut {
+        width: 100%;
+        height: 600px;
+    }
+    .navigation {
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .subHead {
+        display: flex;
+        flex-direction: column;
+    }
+    .head {
+        height: auto;
+    }
+    .garante {
+        padding-left: 50px;
+        border-bottom: 1px solid gray;
+        width: 50%;
+    }
+    .shipping {
+        padding-left: 50px;
+        border-bottom: 1px solid gray;
+        width: 50%;
+    }
+    .back {
+        padding-left: 50px;
+        width: 50%;
+        border-bottom: 1px solid gray;
+    }
+    #btsa1 {
+        left: 250px;
+    }
+    .navigationBurger {
+        flex-wrap: wrap;
+    }
+}

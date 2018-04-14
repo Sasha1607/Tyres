@@ -1,0 +1,155 @@
+#bgAbout {
+     background: #efefef;
+     height: 1000px;
+}
+#about {
+    font-family: 'Roboto', sans-serif;
+    width: 90%;
+    height: 30px;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 30px;
+    color: orangered;
+    position: relative;
+    top: 20px;
+    padding: 10px;
+    background-color: white;
+}
+#home {
+    width: 15px;
+    height: 15px;
+}
+#h2 {
+    color: #333;
+    margin-left: 60px;
+    margin-top: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+#mainInAbout{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    color: #333;
+    margin-left: 50px;
+}
+h3 {
+    margin-top: 30px;
+}
+.positionInAbout {
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    float: left;
+    padding: 10px;
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    background-color: rgb(253, 85, 3);
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.spanAbout {
+    margin-left: 25px;
+    color: #333;
+    font-size: 14px;
+}
+.textLoremAbout {
+    display: block;
+    margin-left: 0;
+    padding-left: 95px;
+    width: 300px;
+    margin-top: 15px;
+}
+.textDuisAbout {
+    display: block;
+    margin-left: 200px;
+    padding-left: 95px;
+    width: 60%;
+    margin-top: 15px;
+}
+#mar {
+    margin-top: 25px;
+}
+#mar1 {
+    margin-top: 25px;
+}
+#imgBlock {
+ display: inline-block;
+    float: left;
+    margin-top: 10px;
+    width: 270px;
+    height: 144px;
+    background-image: url(image/about.jpg);
+}
+#why {
+    
+     margin-right: 100px;   
+}
+#headInTeam {
+    color: #333;
+    margin-left: 60px;
+    margin-top: 50px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+#team {
+ 
+}
+#people {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    width: 0;
+}
+#robert {
+    background-image: url(image/team/robert.jpg);
+    width: 230px;
+    height: 240px;
+    border: 7px outset white;
+}
+#jesica {
+    background-image: url(image/team/jesica.jpg);
+    width: 230px;
+    height: 240px;
+    border: 7px outset white;
+}
+#edna {
+    background-image: url(image/team/edna.jpg);
+    width: 230px;
+    height: 240px;
+    border: 7px outset white;
+}
+#robert:hover {
+    border: 7px inset white;
+}
+#jesica:hover {
+    border: 7px inset white;
+}
+#edna:hover {
+    border: 7px inset white;
+}
+#name {
+    display: flex;
+    justify-content: space-around;
+}
+.nameText {
+    width: 0;
+    overflow: hidden;
+    color: rgb(253, 85, 3);
+    margin-top: 20px;
+}
+#aboutPersonal {
+    display: flex;
+    justify-content: space-around;
+}
+.textPersonal {
+    width: 0;
+    overflow: hidden;
+    color: #333;
+    margin-top: 5px;
+    margin-left: 70px;
+}

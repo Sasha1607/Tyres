@@ -1,0 +1,85 @@
+#bgContact {
+     background: #efefef;
+     height: auto;
+}
+#contact {
+    font-family: 'Roboto', sans-serif;
+    width: 90%;
+    height: 30px;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 30px;
+    color: orangered;
+    position: relative;
+    top: 20px;
+    padding: 10px;
+    background-color: white;
+}
+#home1 {
+    width: 15px;
+    height: 15px;
+}
+#h2_C {
+    color: #333;
+    margin-left: 60px;
+    margin-top: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+.h3_C {
+    color: #333;
+    margin-left: 60px;
+    margin-top: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+#tableForLocation {
+     font-family: 'Roboto', sans-serif;
+    width: 90%;
+    height: 200px;
+    background-color: white;
+    border: 1px solid lightgray;
+    margin-top: 30px;
+    
+}
+.firstHeaders {
+     font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    color: #333;
+    margin-top: 20px
+    
+}
+
+#cont {
+    margin-top: 60px;
+}
+.input1 {
+     font-family: 'Roboto', sans-serif;
+    display: block;
+    width: 90%;
+    height: 50px;
+    margin: 10px auto;
+}
+textarea {
+     font-family: 'Roboto', sans-serif;
+    display: block;
+    margin: 20px auto;
+    width: 90%;
+}
+#btnSend {
+     font-family: 'Roboto', sans-serif;
+    display: block;
+    margin: 10px auto;
+    width: 90%;
+    background-color: orangered;
+    color: #333;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.social {
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: #efefef;
+}
